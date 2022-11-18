@@ -10,6 +10,9 @@ function simpleArraySum(ar) {
     for(let i=0; i<ar.length; i++){
         sum += ar[i]; 
     }
-    return sum; 
+    console.log(sum);
+    return sum;  
 }
+simpleArraySum([1,2,3]);
+console.log("Hey");
 //don't need to call functions on hackerRank b/c returning ?
